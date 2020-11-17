@@ -3244,8 +3244,6 @@
 				"${BUILT_PRODUCTS_DIR}/YandexCheckoutShowcaseApi/YandexCheckoutShowcaseApi.framework",
 				"${BUILT_PRODUCTS_DIR}/YandexCheckoutWalletApi/YandexCheckoutWalletApi.framework",
 				"${BUILT_PRODUCTS_DIR}/YandexLoginSDK/YandexLoginSDK.framework",
-				"${PODS_ROOT}/YandexMobileMetrica/dynamic/YandexMobileMetrica.framework",
-				"${PODS_ROOT}/YandexMobileMetrica/dynamic/YandexMobileMetricaCrashes.framework",
 				"${BUILT_PRODUCTS_DIR}/YandexMoneyCoreApi/YandexMoneyCoreApi.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -3260,8 +3258,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YandexCheckoutShowcaseApi.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YandexCheckoutWalletApi.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YandexLoginSDK.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YandexMobileMetrica.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YandexMobileMetricaCrashes.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YandexMoneyCoreApi.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

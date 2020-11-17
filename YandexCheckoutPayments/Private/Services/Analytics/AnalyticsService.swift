@@ -1,4 +1,3 @@
-import YandexMobileMetrica
 
 final class AnalyticsService: AnalyticsProcessing {
 
@@ -14,15 +13,17 @@ final class AnalyticsService: AnalyticsProcessing {
     private let yandexMetricaKey = "b1ddbdc0-dca6-489c-a205-f71e0158bfcb"
     #endif
 
-    private lazy var reporter: YMMYandexMetricaReporting? =
-        YMMYandexMetrica.reporter(forApiKey: yandexMetricaKey)
+
+
 
     func start() {
-        reporter?.resumeSession()
+        
+        
     }
 
     func stop() {
-        reporter?.pauseSession()
+   
+   
     }
 
     func trackEvent(_ event: AnalyticsEvent) {
@@ -35,7 +36,7 @@ final class AnalyticsService: AnalyticsProcessing {
         logAnalyticsEventNamed(name,
                                parameters: parameters,
                                isLoggingEnabled: isLoggingEnabled)
-        reporter?.reportEvent(name, parameters: parameters)
+       
     }
 
     // swiftlint:disable cyclomatic_complexity
